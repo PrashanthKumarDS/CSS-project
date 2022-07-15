@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="utf-8">
+    <title>Absolute Positioning</title>
+    <link rel = "icon" href = 
+    "https://w7.pngwing.com/pngs/263/569/png-transparent-p-logo-symbol-font-powerpoint-funny-microsoft-office-microsoft-thumbnail.png"
+             type = "image/x-icon">
+    <style>
+        a:link,
+        a:visited {
+            background-color: darkgray;
+            display: inline;
+            color: black;
+            font-size: 20PX;
+            text-decoration: none;
+            border: 1px black;
+            border-style: double;
+            width: 160px;}
+            
+        
+
+        .container{
+            position: relative;
+        }
+
+        .p {
+            position: absolute;
+            left:40%;
+            right:20%;
+            top:0%;
+            font-weight: bold;
+            color:midnightblue;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bold;
+        }
+       
+         .bottom{
+            position:absolute;
+            right:10px;
+            bottom: 10px;
+         }
+         li{
+            font-size: 30px;
+         }
+    </style>
+</head>
+
+<body>
+    <h1>Absolute and Relative Positioning</h1>
+
+    <div class="container">
+        <img src="https://yourdost-images.s3.ap-southeast-1.amazonaws.com/resourcePageAssets/header/mainheader-bg-desktop.png"
+            height="100%" width="100%">
+            <a href="https://yourdost.com/?yd_source=Blog&yd_medium=web&yd_campaign=header" title="blank"><img class="bottom" src="https://s3-ap-southeast-1.amazonaws.com/yourdost-images/main-logo/yd-logo.png"></a> 
+          <p class="p"> Are you an institution looking to create a happier community?  Just Click on YourDOST image </P>
+    </div>
+    <p  >Difference between css position absolute versus relative
+        I spent sometime understanding the difference between absolute positioning and relative positioning. It was a confusing topic to me and I decide to illustrate their differences with pictures.
+        
+        Before going further, we should know the default behaviour of position when we don’t specify any position property.</p>
+          <img src="data:image/jpeg;base64,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" width="30%">
+        
+       <h2><li>position: static</li></h2>
+       <p>By default, position an element based on its current position in the flow. The top, right, bottom, left and z-index properties do not apply.</p> 
+        
+       <h2><li>position: relative</li></h2>
+       <p>Position an element based on its current position without changing layout.</p> 
+        
+       <h2><li>position: relative</li></h2>
+       <p>Position an element based on its closest positioned ancestor position.</p> 
+      
+       <div class="class" style="margin-top: 50px; margin-bottom: 10px; margin-left: 10px;"><a href="CSSindex.html">CSSMainPage</a></div>
+        <div class="class" style="margin-top: 5px; margin-bottom: 10px; margin-left: 10px;"><a href="index.html">MainPage</a></div>
+</body>
+
+</html>

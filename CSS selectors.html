@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <meta charset="utf-8">
+        <title>CSS Selector</title>
+        <link rel = "icon" href = 
+        "https://w7.pngwing.com/pngs/263/569/png-transparent-p-logo-symbol-font-powerpoint-funny-microsoft-office-microsoft-thumbnail.png"
+                 type = "image/x-icon">
+        <style>
+              a:link,a:visited{
+            background-color: darkgray;
+            display:inline;
+            color: black;
+            font-size: 20PX;
+            text-decoration: none;
+            border: 1px black;
+            border-style: double;
+        }
+            p{
+            color: blue;
+            font-size: 30PX;
+        }
+        .red{
+            color: rgb(226, 53, 10);
+            font-style: italic;
+            font-size: larger;
+        }
+        #highlight{
+            color:rgb(255, 0, 0)
+        }
+       
+        h2{
+            font-size: 30PX;
+            text-decoration: underline;
+            
+        }
+        
+        .backround{
+            background-color: rgb(245, 241, 241);
+        }
+        ul{
+            font-size: 30PX;
+        }
+        </style>
+    </head>
+    <body>
+        <h1>CSS Selectors</h1>
+        <div class="backround">
+        <h2>Element Selector</h2>
+        <p> p{
+            color: blue;
+            font-size: 30PX;}
+        This pragaraph printed with blue color</p></div>
+        <div class="backround">
+        <h2 class="red">Class selector</h2>
+        <p class="red">.red{
+            color: rgb(226, 53, 10);
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: larger; .This paragraph and heading printed with red color and font size will be different
+        }<div>This line print with black it's in div tag inside a p tag but its not effected</div></p>
+    </div>
+    <div class="backround">
+     <h2 id="highlight">Id Seclector</h2>
+        <p>#highlight{
+            color:rgb(255, 0, 0)
+        } because of this ,<span id="highlight">heading with red</span> and paragraph printed with blue</p>
+    </div>
+    <div>
+        <h2>Syntax for CSS Selectors</h2>
+        <ul>
+            <li>Element</li>
+            <li>.class (define with .)</li>
+            <li>#id (define with #)</li>
+        </ul>
+    </div>
+    <div class="class" style="margin-top: 50px; margin-bottom: 10px; margin-left: 10px;"><a href="CSSindex.html">CSSMainPage</a>
+<div class="class" style="margin-top: 5px; margin-bottom: 10px; margin-left:1px;"><a href="index.html">MainPage</a></div>
+
+</body>
+</html>

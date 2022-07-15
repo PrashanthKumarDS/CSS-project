@@ -1,0 +1,413 @@
+body {
+    background-color:white;
+    margin: 0px;
+    font-family:'Open Sans',sans-serif !important;
+}
+.scroll {
+    display: flex;
+    flex-wrap: wrap;
+    overflow-x: scroll;
+}
+.header {
+    background-color: white;
+    width:100%;
+    height:70px;
+    overflow: hidden;
+    position: relative;
+    
+}
+
+.logo {
+    position:relative;
+    left:10px;
+    right:80%;
+    top:10px;
+}
+.nav1 {
+    position: absolute;
+    top:1%;
+    left:200px;
+    display: flex;
+    height:70px;
+    width: 100%;
+
+}
+.nav2 {
+    position: absolute;
+    right:10px;
+    bottom:-17px;
+    left:1200px;
+    display:flex;
+    width: 100%;
+    height:70px;
+
+}
+
+.topa {
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+    color: rgb(13, 31, 134);
+    display: inline-block;
+}
+
+.button:hover {
+    border: solid rgb(39, 129, 39) 1px;
+}
+.nav2>a:hover {
+    background-color: rgb(115, 200, 211);
+}
+
+.button {
+    background-color: white;
+    padding: 5px;
+    text-align: center;
+    border-radius: 15px;
+    border: solid white 1px;
+    margin: 20px;
+}
+.div2{
+    height:230px;
+    position: relative;
+    background-image: url(https://yourdost-images.s3.ap-southeast-1.amazonaws.com/resourcePageAssets/header/mainheader-bg-desktop.png);
+    width:100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.himg{
+    position:relative;
+}
+
+#ppp{
+    position:absolute;
+    top:5%;
+    left:40%;
+    font-size:233%;
+    color:midnightblue;
+    max-height: fit-content;
+    max-width: fit-content;
+}
+ #pp{
+    position:absolute;
+    margin:20px;
+    top:69px;
+    left:38.5%;
+    right:0px;
+    font-size:279%;
+    color:midnightblue;
+    font-weight: bolder;
+    max-height: fit-content;
+    max-width: fit-content;
+}
+#p{
+    position:absolute;
+    left:40.5%;
+    top:127px;
+    right:10%;
+    font-size:196%;
+    color:midnightblue;
+    font-weight: bolder;
+    height: 20px;
+    overflow-wrap: break-word;
+} 
+.div22{
+    margin-top:300px;
+    text-align: center;
+    height:50px;
+    background-color: white;
+    font-size:250%;
+    color:midnightblue;
+    font-weight: bolder;
+    margin-top: 0px;
+}
+.div3{
+    margin-top:20px;
+    text-align: center;
+    height:50px;
+    background-color: white;
+    font-size:250%;
+    color:midnightblue;
+    font-weight: bolder;
+}
+.div4{
+    text-align: center;
+    background-color: white;
+
+}
+.button1 {
+    background-color: rgb(210, 222, 230);
+    padding:2px 20px 2px 20px;
+    text-align: center;
+    border-radius: 15px;
+    margin:10px;
+    border: solid 1px rgb(130, 138, 214);
+}
+.div4a {
+    text-decoration: none;
+    color:midnightblue;
+    display: inline-block;
+    font-size:175%;
+    width: max-content;
+}
+.button1:hover{
+    background-color: rgba(33, 13, 122, 0.781);
+}
+.div4a:hover{
+    color: white;
+}
+#sosp{
+    font-size:20px;
+    color:midnightblue;
+    text-align: center;
+    margin:0px;
+    margin-bottom:20px;
+}
+.divbreath{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+  .card{
+    margin-right: 30px;
+    margin-bottom:20px;
+    height:320px;
+    width:340px;
+    border-radius:5px;
+    background-color: white;
+  
+}
+.cardimg{
+    width:300px;
+    position: relative;
+    
+    
+}
+.cardbutton1{
+    position:absolute;
+    font-weight: bold;
+    background:transparent;
+    background-color: red;
+    color:white;
+    border:rgb(104, 182, 228);
+    text-align: center;
+    border-radius: 15px;
+    left:10px;
+    top:10px;
+}
+.cardbutton2{
+    position:absolute;
+    background-color: rgb(130, 130, 190);
+    color:white;
+    font-weight: bold;
+    border:rgb(215, 227, 235);
+    text-align: center;
+    border-radius: 15px;
+    left:80px;
+    top:10px;
+}
+.playbutton{
+    position:absolute;
+    border-radius: 50%;
+    bottom:25%;
+    left:20%;
+   
+}
+.cardimgp{
+    position: absolute;
+    bottom:10%;
+    left:2%;
+    color:midnightblue;
+    
+
+}
+.cardtext{
+    position: relative;
+}
+
+.cardtex1{
+   font-size:19px;
+   margin-bottom:0px;
+   font-weight:850;
+   color: rgb(36, 34, 34);
+   text-align:center;
+   
+}
+.cardtext2{
+    margin-top:0px;
+    font-size: 10px;
+   color: rgb(36, 34, 34);
+   text-align:center;
+   
+}
+.cardtextbutton{
+    position:absolute;
+    font-weight: bold;
+    background-color:rgb(39, 39, 116);
+    padding:4% 14% 4% 14%;
+    text-align: center;
+    border-radius: 5px;
+    left:14.5%;
+    border: none;
+}
+.ctba {
+    text-decoration: none;
+    color:white;
+    font-size:17px;
+}
+.sectionbg{
+display: flex;  
+justify-content:center;
+flex-wrap:wrap;
+max-height: max-content;
+}
+.sectionbg2{
+display: flex;  
+justify-content:center;
+flex-wrap: wrap;
+}
+#footer{
+    background-color:rgb(39, 39, 116);
+    width: 100%;
+    height:93px;
+    color: white;
+    display: inline-block;
+    text-align: center;
+}
+#end>a{
+    color: rgb(245, 168, 114);
+    text-align: center;
+    text-decoration: none;
+}
+
+    
+    @media (max-width:738px) {
+        .sectionbg{
+            display: flex;
+            justify-content:flex-start;
+            flex-wrap: nowrap;
+            gap:40px;
+            margin-left: 10px;
+            overflow-x: scroll;
+            scrollbar-color: none;
+        }
+        .sectionbg2{
+            display: flex;
+            margin-left: 10px;
+            justify-content:space-between;
+            flex-wrap: nowrap;
+            gap:40px;
+            overflow-x: scroll;
+            scrollbar-color: none;
+    
+        }
+       
+        .div4 {
+            color:midnightblue;
+            display: flex;
+            justify-content:space-around;
+            flex-wrap: wrap;
+            margin-left: 10px;
+            overflow-x: scroll;
+            scrollbar-color: none;
+            height:53px;
+        }
+        .div22{
+            text-align: center;
+            height:25px;
+            color:midnightblue;
+            font-weight: bolder;
+            font-size: 23px;
+        }
+        .div4{
+            display: flex;
+            justify-content:space-between;
+            flex-wrap: nowrap;
+            gap:10px;
+            overflow-x: scroll;
+            scrollbar-color: none;
+        }
+        .div2{
+            height:233px;
+            width: 100%;
+            position: relative;
+            background-image: url(https://yourdost-images.s3.ap-southeast-1.amazonaws.com/resourcePageAssets/header/mainheader-bg-mobile.png);
+            background-repeat: no-repeat;
+            background-size: auto;
+            background-size: cover;
+        }
+        #ppp{
+
+            top:30px;
+            left:15%;
+            font-size:130%;
+            color:midnightblue;
+            max-height: fit-content;
+            max-width: fit-content;
+        }
+         #pp{
+            margin:20px;
+            top:50px;
+            left:41px;
+            right:0px;
+            font-size:185%;
+            color:midnightblue;
+            font-weight: bolder;
+            max-height: fit-content;
+            max-width: fit-content;
+        }
+        #p{
+
+            left: 69.5%;
+            top: 149px;
+            right: 2%;
+            font-size: 91%;
+            color: midnightblue;
+            font-weight: bolder;
+            height: 20px;
+            overflow-wrap: break-word;
+            text-align: center;
+        } 
+        .div3{
+            font-size: 23px;
+            margin-top:20px;
+            height:0px;
+            font-weight: bolder;
+        }
+        #sosp{
+            font-size:20px;
+            color:midnightblue;
+            text-align: center;
+            margin:25px;
+            margin-bottom:20px;
+        }
+        .header{
+           
+            overflow-x: scroll;
+            scrollbar-color: none;
+        }
+        .nav1 {
+            position: absolute;
+            top:1%;
+            left:200px;
+            display: flex;
+            height:70px;
+            width: 100%;
+        
+        }
+        .nav2 {
+            position: absolute;
+            right:10px;
+            bottom:-17px;
+            left:1200px;
+            display:flex;
+            width: 100%;
+            height:70px;
+        
+        }
+       
+    }
+     
+
+   

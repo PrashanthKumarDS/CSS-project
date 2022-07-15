@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <meta charset="utf-8">
+        <title>Combing Selectors</title>
+        <link rel = "icon" href = 
+        "https://w7.pngwing.com/pngs/263/569/png-transparent-p-logo-symbol-font-powerpoint-funny-microsoft-office-microsoft-thumbnail.png"
+                 type = "image/x-icon">
+        <style>
+            p.big{
+                font-size: 30PX;
+                color: navy;
+            }
+            
+         
+        p {
+            background-color: rgb(245, 241, 241);
+            width:800px
+        
+        }
+        article>p{
+            color: indigo;
+        }
+        section p{
+            color: rgb(243, 10, 22);
+        }
+        a:link,a:visited{
+            background-color: darkgray;
+            display:inline;
+            color: black;
+            font-size: 20PX;
+            text-decoration: none;
+            border: 1px black;
+            border-style: double;
+        }
+        ul{
+            font-size: 30PX;
+        }
+        </style>
+    </head>
+    <body>
+        
+  <h1>Combining Selectors</h1>
+  <ol >
+    <div >
+        <h2> <li>Element with class selector</li></h2>
+         <p>p.big{
+        font-size: 30PX;
+        color: navy;}</p>
+      <p class="big">for this need to work Every p that has class="classname"</p>
+    <p>This p not have "big" class in it so its not effected</p>
+</div>
+<div>
+    <h2>  <li> Child selector</li></h2>
+    <p>article>p{
+        color: indigo;
+    }</p>
+    <article>
+        <p>This line will effected because it is inside the article</p>
+    </article>
+    <p>This line will uneffected bcz it is outside the article</p>
+    <article>
+        <div>
+        <p>This line will uneffected because it is inside the div of article</p></div>
+    </article>
+    </div>
+ <div>
+    <h2>  <li> Desendant selector</li></h2>
+    <p>section p{
+        color: rgb(243, 10, 22);
+    }</p>
+    <section>
+        <p>This line will effected because it is inside the section</p>
+    </section>
+    <p>This line will uneffected bcz it is outside the section</p>
+    <section>
+        <div>
+        <p>This line will effected even it is inside the div of section</p></div>
+        </section>
+        </div>
+</ol>
+<div class="backround">
+    <h2>Summary of CSS ComibineSelectors</h2>
+    <ul>
+        <li>Element with class selector (Selector.class)</li>
+        <li>Child Selector(Selector>Selector)</li>
+        <li>Descendent selector(Selector Selector)</li>
+    </ul>
+</div>
+<div class="class" style="margin-top: 50px; margin-bottom: 10px; margin-left: 10px;"><a href="CSSindex.html">CSSMainPage</a></div>
+<div class="class" style="margin-top: 5px; margin-bottom: 10px; margin-left: 10px;"><a href="index.html">MainPage</a></div>
+    </body>
+</html>
